@@ -1,0 +1,30 @@
+body {
+    margin: $margin-0;
+    padding: 0%; }
+  
+  .title {
+    margin: 80px;
+    text-align: $texto-centrado; }
+  
+  .first-section {
+    margin: 40px; }
+  
+  .picture {
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    -webkit-box-shadow: -23px 2px 18px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -23px 2px 18px 6px rgba(0, 0, 0, 0.75);
+    box-shadow: -23px 2px 18px 6px rgba(0, 0, 0, 0.75); }
+  
+  .aboutMe {
+    display: block;
+    text-align: $texto-centrado; }
+  
+  .aboutMe h2 {
+    margin-bottom: 40px; }
+
+    
+
+    
