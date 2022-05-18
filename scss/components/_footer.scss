@@ -1,21 +1,25 @@
   
   .final-section {
+    display: block;
     background: linear-gradient(to right, #36d1dc, #5b86e5);
     text-align: $texto-centrado;
-    padding: 50px 0px 50px 0px; }
-  
-  .conteiner-footer h3 {
-    font-size: 25px;
-    color: #fff;
-    margin-bottom: 40px; }
-  
-  .button-footer {
-    font-size: 14px;
-    background: #5cb8ff;
-    padding: 15px 30px 15px 30px;
-    color: white;
-    transition: 1s;
-    text-decoration: none; }
+    padding:60px 0px; 
+    margin: 300px 0px 0px 0px ;
+    position:bottom;
+    height:250px;
+    .conteiner-footer h3 {
+      font-size: map-get($tamano-letras , subtitulos );
+      color: #fff;
+      margin-top: 20px;
+      margin-bottom:40px; }
+      .button-footer {
+        font-size: map-get($tamano-letras , parrafos );
+        background: #5cb8ff;
+        padding: 15px 30px 15px 30px;
+        color: white;
+        transition: 1s;
+        text-decoration: none; }
+  }
   
   .button-footer:hover {
     color: black;

@@ -1,0 +1,36 @@
+/* Services Styles */
+body {
+    margin: $margin-0;
+    padding: 0%; 
+    background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    .first-section { 
+        margin: 100;
+        height: 1450px;
+        justify-content: center;
+        align-items: center;
+
+        .title {
+          margin: 100px;
+          text-align: $texto-centrado; 
+          font-size: map-get($tamano-letras,titulos);
+          }
+          .card{
+            margin: 100px;
+            text-align: center;
+          }
+          
+          .col {
+              align-items: center;
+              justify-content: center;
+     
+        }
+
+      }
+    }
+
+
+
+/* Service Styles */

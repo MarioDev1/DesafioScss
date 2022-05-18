@@ -1,15 +1,25 @@
 body {
     margin: $margin-0;
-    padding: 0%; }
-  
-  .title {
-    margin: 80px;
-    text-align: $texto-centrado; }
+    padding: 0%; 
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
   
   .first-section {
-    margin: 40px; }
+    
+    margin: 40px; 
+    height: 1200px;
+    .title {
+      margin: 100px;
+      text-align: $texto-centrado; 
+      font-size: map-get($tamano-letras,titulos);
+      }
+  }
   
   .picture {
+    margin-top: 100px;
     -moz-border-radius-topright: 40px;
     -moz-border-radius-bottomright: 40px;
     border-top-right-radius: 40px;
@@ -19,12 +29,15 @@ body {
     box-shadow: -23px 2px 18px 6px rgba(0, 0, 0, 0.75); }
   
   .aboutMe {
+    margin-top: 100px;
     display: block;
-    text-align: $texto-centrado; }
-  
-  .aboutMe h2 {
-    margin-bottom: 40px; }
-
-    
-
-    
+    text-align: $texto-centrado;
+    h2{
+      font-size: map-get($tamano-letras , subtitulos );
+      margin: 40px;
+    } 
+    p{
+      font-size: map-get($tamano-letras, parrafos );
+    }
+  }
+}
