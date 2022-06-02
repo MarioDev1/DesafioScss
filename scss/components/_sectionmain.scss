@@ -8,11 +8,10 @@ body {
 
   
   .first-section {
-    
-    margin: 40px; 
-    height: 1200px;
+ 
+    min-height: 1200px;
     .title {
-      margin: 100px;
+
       text-align: $texto-centrado; 
       font-size: map-get($tamano-letras,titulos);
       }

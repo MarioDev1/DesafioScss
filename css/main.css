@@ -9,10 +9,8 @@ body {
   background: linear-gradient(to right, #f2fcfe, #1c92d2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   body .first-section {
-    margin: 40px;
-    height: 1200px; }
+    min-height: 1200px; }
     body .first-section .title {
-      margin: 100px;
       text-align: center;
       font-size: 40px; }
   body .picture {
@@ -45,20 +43,14 @@ body {
   background: linear-gradient(to right, #f2fcfe, #1c92d2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   body .first-section {
-    margin: 100;
-    height: 1450px;
-    justify-content: center;
-    align-items: center; }
+    margin: auto;
+    min-height: 1200px; }
     body .first-section .title {
-      margin: 100px;
       text-align: center;
       font-size: 40px; }
     body .first-section .card {
-      margin: 100px;
+      margin: 5px auto;
       text-align: center; }
-    body .first-section .col {
-      align-items: center;
-      justify-content: center; }
 
 /* Service Styles */
 body {
@@ -71,17 +63,18 @@ body {
   background: linear-gradient(to right, #f2fcfe, #1c92d2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   body .first-section {
-    margin: 40px;
-    height: 1200px; }
+    margin: auto;
+    min-height: 1200px; }
     body .first-section .title {
-      margin: 100px;
       text-align: center;
       font-size: 40px; }
   body .vimeo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 180px; }
+    margin-top: 180px;
+    width: 300px;
+    height: 300px; }
 
 body {
   margin: 0%;
@@ -93,21 +86,21 @@ body {
   background: linear-gradient(to right, #f2fcfe, #1c92d2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   body .first-section {
-    margin: 40px;
-    height: 1200px; }
+    margin: auto;
+    min-height: 1200px; }
     body .first-section .title {
-      margin: 100px;
+      margin-top: 80px;
       text-align: center;
       font-size: 40px; }
     body .first-section .btn {
       margin: 20px; }
     body .first-section .carousel {
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 300px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: auto; }
+      margin: 80px auto; }
       body .first-section .carousel .carousel-control-prev-icon {
         background-color: #666666; }
       body .first-section .carousel .carousel-control-next-icon {
