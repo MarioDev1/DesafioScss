@@ -73,8 +73,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    width: 500px;
-    height: 500px; }
+    width: 600px;
+    height: 600px; }
     @media (max-width: 480px) {
       body .vimeo {
         width: 250px;
@@ -82,8 +82,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
-        border: 1px solid black; } }
+        margin-top: 100px; } }
     @media (min-width: 480px) and (max-width: 768px) {
       body .vimeo {
         width: 400px;
