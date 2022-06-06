@@ -72,9 +72,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 180px;
-    width: 300px;
-    height: 300px; }
+    margin-top: 100px;
+    width: 500px;
+    height: 500px; }
+    @media (max-width: 480px) {
+      body .vimeo {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        border: 1px solid black; } }
+    @media (min-width: 480px) and (max-width: 768px) {
+      body .vimeo {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px; } }
 
 body {
   margin: 0%;
